@@ -50,7 +50,7 @@ foreach ($porDepto as $depto => $nombres) {
 
 echo "<br> SALARIO PROMEDIO POR DEPARTAMENTO <br>";
 foreach ($promedioSalarioDepto as $depto => $promedio) {
-    echo "$depto: $" . number_format($promedio, 2) . "<br>";
+    echo "$depto: $" . number_format($promedio) . "<br>";
 }
 
 echo "<br> DEPARTAMENTO CON LA NÓMINA TOTAL MÁS ALTA <br>";
